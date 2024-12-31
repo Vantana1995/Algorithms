@@ -1,6 +1,6 @@
 # Algorithms
 
-- Day 1
+- [Day 1](./day%201)
   [Linear alghoritm](./day%201/linearAlghs.js) is a simple algorithm to find a specific key in an unordered array. It starts at the first element and checks each one sequentially until it either finds the key or reaches the end of the array. If the key is found, the algorithm returns its index; otherwise, it indicates that the key is not in the array. This approach is particularly useful when the array is unsorted, as it does not require any prior sorting. The time complexity of linear search is O(n), where n is the number of elements in the array.
   [Binary algorithm](./day%201/binaryAlghs.js) is used when we have a sorted array. It works by repeatedly dividing the search range in half. The algorithm starts by selecting the middle element and compares it with the key. If the key matches, the algorithm stops. If not, it checks if the key is smaller or larger than the middle value. If the key is smaller, the search continues in the left half; if larger, the search continues in the right half. This process repeats until the key is found or the search range is exhausted.
   [Hashing algorithm](./day%201/hashAlghs.js) works by creating an array with a fixed number of empty slots. We then use a key to calculate an index using a hash function, typically by performing a modulo operation (key % array.length). The remainder of this division becomes the index where the data is stored. If two keys result in the same index (a collision), methods like chaining or open addressing are used to handle the collision.
