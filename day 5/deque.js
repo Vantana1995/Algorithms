@@ -1,3 +1,4 @@
+//Double-ended Queue
 class Deque {
   constructor() {
     this.items = [];
@@ -13,7 +14,7 @@ class Deque {
 
   removeFront() {
     if (this.isEmpty()) {
-      console.log("Дек пуст");
+      console.log("Deck empty");
       return null;
     }
     return this.items.shift();
@@ -21,7 +22,7 @@ class Deque {
 
   removeBack() {
     if (this.isEmpty()) {
-      console.log("Дек пуст");
+      console.log("Deck empty");
       return null;
     }
     return this.items.pop();

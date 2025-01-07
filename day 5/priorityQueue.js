@@ -22,7 +22,7 @@ class PriorityQueue {
 
   dequeue() {
     if (this.isEmpty()) {
-      console.log("Очередь пуста");
+      console.log("Queue is empty");
       return null;
     }
     return this.items.shift();
