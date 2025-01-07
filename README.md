@@ -13,3 +13,4 @@
   [Rehashing](./day%202/rehashing.js) is a very simple way to minimize collision but [function](./day%202/rehashing.js#L31) must always check occupancy condition of our array and [resize](./day%202/rehashing.js#L14) array in case of hit a critical point, while rehashing is an effective way to reduce collisions, it is not the most efficient method because each resize allocates more memory, leaving a large portion of the table unused. This leads to a less efficient utilization of space as the table grows over time.
 - [Day 3-4](./day%203-4/) learn deeper how 1D massives work, [column massives](./day%203-4/massives.js#L37) and
   [find duplicate](./day%203-4/massives.js#L35). Learn and understanding what is 2D and nD massives. Singly linked and Doubly linked list has difference only in bilateral nodes which is help us to move in both side.
+- [Day 5-7](./day%205)
